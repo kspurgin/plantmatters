@@ -1,8 +1,17 @@
 # frozen_string_literal: true
 
-require 'plantmatters/version'
+# standard library
+require 'csv'
+
+require 'pry'
+
+Dir["#{File.dirname(__FILE__)}/../lib/plantmatters/*.rb"].each do |file|
+  require "plantmatters/#{File.basename(file, File.extname(file))}"
+end
+Dir["#{File.dirname(__FILE__)}/../lib/plantmatters/gbif/*.rb"].each do |file|
+  require "plantmatters/gbif/#{File.basename(file, File.extname(file))}"
+end
 
 module Plantmatters
-  class Error < StandardError; end
-  # Your code goes here...
+  ::PM = Plantmatters
 end
