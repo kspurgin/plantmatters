@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.gbif.org/v1/species/suggest?limit=100&q=Cercis%20canadensis
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday/v0.12.0.1 Gbif/v0.1.0
+      X-User-Agent:
+      - Faraday/v0.12.0.1 Gbif/v0.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 24 Apr 2021 19:43:43 GMT
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET, POST, DELETE, PUT, OPTIONS
+      Server:
+      - Jetty(9.3.z-SNAPSHOT)
+      Cache-Control:
+      - public, max-age=3601
+      X-Varnish:
+      - 796331856 791809270
+      Age:
+      - '1093'
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '10748'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"key":5353583,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"nubKey":5353583,"scientificName":"Cercis
+        canadensis L.","canonicalName":"Cercis canadensis","rank":"SPECIES","status":"ACCEPTED","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis"},"synonym":false,"class":"Magnoliopsida"},{"key":7371750,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":7371750,"parent":"Cercis","parentKey":2955919,"scientificName":"Cercis
+        canadensis Castigl.","canonicalName":"Cercis canadensis","rank":"SPECIES","status":"DOUBTFUL","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis"},"synonym":false,"class":"Magnoliopsida"},{"key":7598605,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis
+        canadensis","parentKey":5353583,"scientificName":"Cercis canadensis subsp.
+        texensis (S.Watson) A.E.Murray","canonicalName":"Cercis canadensis texensis","rank":"SUBSPECIES","status":"HOMOTYPIC_SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":10743523,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis
+        canadensis","parentKey":5353583,"scientificName":"Cercis canadensis subsp.
+        canadensis","canonicalName":"Cercis canadensis canadensis","rank":"SUBSPECIES","status":"ACCEPTED","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":false,"class":"Magnoliopsida"},{"key":7372138,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis
+        canadensis","parentKey":5353583,"scientificName":"Cercis canadensis subsp.
+        mexicana (Rose) A.E.Murray","canonicalName":"Cercis canadensis mexicana","rank":"SUBSPECIES","status":"HOMOTYPIC_SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":5616996,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"nubKey":5616996,"scientificName":"Cercis
+        canadensis var. plena Sudw.","canonicalName":"Cercis canadensis plena","rank":"VARIETY","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":5353584,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"nubKey":5353584,"scientificName":"Cercis
+        canadensis var. typica M.Hopkins","canonicalName":"Cercis canadensis typica","rank":"VARIETY","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":5616998,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"nubKey":5616998,"scientificName":"Cercis
+        canadensis f. glabrifolia Fernald","canonicalName":"Cercis canadensis glabrifolia","rank":"FORM","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":5616995,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"nubKey":5616995,"scientificName":"Cercis
+        canadensis var. pubescens Pursh","canonicalName":"Cercis canadensis pubescens","rank":"VARIETY","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":7481881,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"scientificName":"Cercis
+        canadensis f. alba Rehder","canonicalName":"Cercis canadensis alba","rank":"FORM","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":5616997,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis
+        canadensis","parentKey":5353583,"nubKey":5616997,"scientificName":"Cercis
+        canadensis var. orbiculata (Greene) Barneby","canonicalName":"Cercis canadensis
+        orbiculata","rank":"VARIETY","status":"ACCEPTED","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":false,"class":"Magnoliopsida"},{"key":5616999,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"nubKey":5616999,"scientificName":"Cercis
+        canadensis var. alba (Rehder) Bean","canonicalName":"Cercis canadensis alba","rank":"VARIETY","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":5353588,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis
+        canadensis","parentKey":5353583,"nubKey":5353588,"scientificName":"Cercis
+        canadensis var. mexicana (Rose) M.Hopkins","canonicalName":"Cercis canadensis
+        mexicana","rank":"VARIETY","status":"ACCEPTED","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":false,"class":"Magnoliopsida"},{"key":5353585,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis
+        canadensis","parentKey":5353583,"nubKey":5353585,"scientificName":"Cercis
+        canadensis var. texensis (S.Watson) M.Hopkins","canonicalName":"Cercis canadensis
+        texensis","rank":"VARIETY","status":"ACCEPTED","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":false,"class":"Magnoliopsida"},{"key":7224963,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis
+        canadensis","parentKey":5353583,"nubKey":7224963,"scientificName":"Cercis
+        canadensis var. canadensis","canonicalName":"Cercis canadensis canadensis","rank":"VARIETY","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"},{"key":7278516,"kingdom":"Plantae","phylum":"Tracheophyta","order":"Fabales","family":"Fabaceae","genus":"Cercis","species":"Cercis
+        canadensis","kingdomKey":6,"phylumKey":7707728,"classKey":220,"orderKey":1370,"familyKey":5386,"genusKey":2955919,"speciesKey":5353583,"parent":"Cercis","parentKey":2955919,"nubKey":7278516,"scientificName":"Cercis
+        canadensis f. canadensis","canonicalName":"Cercis canadensis canadensis","rank":"FORM","status":"SYNONYM","higherClassificationMap":{"6":"Plantae","7707728":"Tracheophyta","220":"Magnoliopsida","1370":"Fabales","5386":"Fabaceae","2955919":"Cercis","5353583":"Cercis
+        canadensis"},"synonym":true,"class":"Magnoliopsida"}]'
+  recorded_at: Sat, 24 Apr 2021 20:01:57 GMT
+recorded_with: VCR 6.0.0

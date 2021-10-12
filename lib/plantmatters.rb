@@ -2,9 +2,14 @@
 
 # standard library
 require 'csv'
+require 'json'
 
 require 'pry'
 
+require 'gbifrb'
+
+
+ 
 Dir["#{File.dirname(__FILE__)}/../lib/plantmatters/*.rb"].each do |file|
   require "plantmatters/#{File.basename(file, File.extname(file))}"
 end
